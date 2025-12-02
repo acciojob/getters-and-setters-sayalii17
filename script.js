@@ -9,6 +9,8 @@ class Person {
 	}
 	setAge(age){
 		this.age= age;
+	}
+	getAge(){
 		console.log(`${this.age}`);
 	}
 }
